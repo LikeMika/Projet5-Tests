@@ -2,7 +2,7 @@ header {
     background-color: #FFCC99;
     text-align: center;
     font-weight: bold;
-    box-shadow: 10px 5px 5px grey;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2);
 }
 main {
     background-color: #E6F2FF;
@@ -20,5 +20,5 @@ aside {
 footer {
     background-color: #99CC99;
     border: solid 1px #CCC;
-    box-shadow: 10px 5px 5px grey;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2);
 }
