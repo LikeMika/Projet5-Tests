@@ -3,14 +3,14 @@ function checkAge(age)
 {
     if (age < 18)
     {
-        alert("vous êtes mineur");
+        return "Vous êtes mineur.";
     }
-    else if(age >= 18 && age <= 65)
+    else if(age >= 18 && age < 65)
     {
-        alert("Vous êtes majeur");
+        return "Vous êtes majeur.";
     }
     else {
-        alert("vous êtes senior");
+        return "Vous êtes senior.";
     }
 }
 export default checkAge;
